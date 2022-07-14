@@ -1,9 +1,11 @@
 import React from "react";
-
+import {CreateTodoButton} from './CreateTodoButton'
 function TodoSearch(){
     return(
-        <input type="text" />
-
+        <div className="headerContainer">
+        <input className="searchText" type="text" />
+        <CreateTodoButton/>
+        </div>
 
     );
 }
