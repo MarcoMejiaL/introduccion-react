@@ -1,0 +1,13 @@
+.headerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    
+    width: 50%;
+    height: 60px;
+}
+.searchText {
+    margin-right: 12px;
+    padding: 4px;
+}

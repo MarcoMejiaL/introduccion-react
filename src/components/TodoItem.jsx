@@ -6,12 +6,16 @@ const todos =[
 ]
 function TodoItem(){
     return(
-        <ul >
+        <ul className="ul__list">
             {todos.map(item=>
-<li>
-<h2>{item.name}</h2>
+<li key={item.name} className="li__item">
+    <form action="">
+        <input type="checkbox"   />
+        <label >{item.name}</label>
+    </form>
+
+
 <span>x</span>
-<input type="checkbox" />
 </li>
             )}
             
