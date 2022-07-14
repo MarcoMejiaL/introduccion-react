@@ -6,13 +6,14 @@ const todos =[
 ]
 function TodoItem(){
     return(
+        
         <ul className="ul__list">
             {todos.map(item=>
 <li key={item.name} className="li__item">
-    <form action="">
-        <input type="checkbox"   />
-        <label >{item.name}</label>
-    </form>
+<p>
+            <input type="checkbox" id={item.id} />
+            <label for={item.id}>{item.name}</label>
+          </p>
 
 
 <span>x</span>
@@ -20,6 +21,9 @@ function TodoItem(){
             )}
             
         </ul>
+      
+        
+       
     );
 }
 
