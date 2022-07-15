@@ -167,3 +167,13 @@ margin: 15px 0;
 color: #34495E;
 }
 
+.spanEraseButton{
+    color: #666;
+    font-size: 4em;
+}
+.spanEraseButton:hover{    
+    color: red;
+    cursor: pointer;
+   
+            
+}
